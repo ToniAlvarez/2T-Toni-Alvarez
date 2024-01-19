@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Ajedrez</title>
+</head>
+<style>
+
+
+/* GENERAL*/
+body{
+    background-image: url(../Tableros-Ajedrez/piezas-ajedrez/maderafondo.jpg);
+}
+table {
+    margin-left:auto;
+    margin-right:auto;
+    border: double 18px rgb(192, 73, 65) ;
+}
+h1 {
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+    text-decoration:underline;
+    margin-top: 5%;   
+}
+
+
+
+/* TABLERO TABLA*/
+.borde{
+    border: double 18px rgb(192, 73, 65) ;
+}
+.tablaAjedrezNegro{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(197, 125, 30);
+}
+.tablaAjedrezBlanco {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(243, 192, 125);
+}
+
+
+/*TABLERO FLEX*/
+.columna{
+    float: left;
+}
+.flexAjedrezNegro{
+    display: flex;
+    flex: 1px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(197, 125, 30);
+
+}
+.flexAjedrezBlanco {
+    display: flex;
+    flex: 1px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(243, 192, 125);
+}
+
+/* TABLERO FLUID*/
+.columna{
+    float: left;
+}
+.fluidAjedrezNegro{
+    width: 100%;
+    max-width: 100px;
+    border: 1px solid black;
+    background-color: rgb(197, 125, 30);
+}
+
+.fluidAjedrezBlanco {
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid black;
+    background-color: rgb(243, 192, 125);
+}
+
+
+/*TABLERO FIX*/
+
+.fixAjedrezNegro{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(197, 125, 30);
+}
+
+.fixAjedrezBlanco {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(243, 192, 125);
+}
+</style>
+<body>
+    <h1>TABLA</h1>
+    <table>
+        <tr>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-torre.png" width="100px" height="100px"> </th>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-caballo.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-alfil.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-dama.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-rey.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-alfil.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-caballo.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-torre.png" width="100px" height="100px"></th>
+        </tr>
+        <tr>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" width="100px" height="100px"></th>
+        </tr>
+        <tr>
+            <th class="tablaAjedrezBlanco"></th>
+            <th class="tablaAjedrezNegro"></th>
+            <th class="tablaAjedrezBlanco"></th>
+            <th class="tablaAjedrezNegro"></th>
+            <th class="tablaAjedrezBlanco"></th>
+            <th class="tablaAjedrezNegro"></th>
+            <th class="tablaAjedrezBlanco"></th>
+            <th class="tablaAjedrezNegro"></th>
+        </tr>
+        <tr>
+            <th class="tablaAjedrezNegro"></th>
+            <th class="tablaAjedrezBlanco"></th>
+            <th class="tablaAjedrezNegro"></th>
+            <th class="tablaAjedrezBlanco"></th>
+            <th class="tablaAjedrezNegro"></th>
+            <th class="tablaAjedrezBlanco"></th>
+            <th class="tablaAjedrezNegro"></th>
+            <th class="tablaAjedrezBlanco"></th>
+        </tr>
+        <tr>
+            <th class="tablaAjedrezBlanco"></th>
+            <th class="tablaAjedrezNegro"></th>
+            <th class="tablaAjedrezBlanco"></th>
+            <th class="tablaAjedrezNegro"></th>
+            <th class="tablaAjedrezBlanco"></th>
+            <th class="tablaAjedrezNegro"></th>
+            <th class="tablaAjedrezBlanco"></th>
+            <th class="tablaAjedrezNegro"></th>
+        </tr>
+        <tr>
+            <th class="tablaAjedrezNegro"></th>
+            <th class="tablaAjedrezBlanco"></th>
+            <th class="tablaAjedrezNegro"></th>
+            <th class="tablaAjedrezBlanco"></th>
+            <th class="tablaAjedrezNegro"></th>
+            <th class="tablaAjedrezBlanco"></th>
+            <th class="tablaAjedrezNegro"></th>
+            <th class="tablaAjedrezBlanco"></th>
+        </tr>
+        <tr>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" width="100px" height="100px"></th>
+        </tr>
+        <tr>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-torre.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-caballo.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-alfil.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-dama.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-rey.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-alfil.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-caballo.png" width="100px" height="100px"></th>
+            <th class="tablaAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-torre.png" width="100px" height="100px"></th>
+        </tr>
+    </table>
+    <h1>FLEX</h1>
+    <table>
+        <tr>
+            <td>
+                <div class="columna">
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-torre.png" alt="Torre negra" width="100px" height="100px"></div>
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"></div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"></div>
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-torre.png" alt="Torre blanca" width="100px" height="100px"></div>
+                </div>
+                <div class="columna"> 
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-caballo.png" alt="Caballo negro" width="100px" height="100px"></div>
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="flexAjedrezNegro"></div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"></div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-caballo.png" alt="Caballo blanco blanca"width="100px" height="100px"></div>
+                </div>
+                <div class="columna">
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-alfil.png" alt="Alfil negro" width="100px" height="100px"></div>
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"></div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"></div>
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-alfil.png" alt="Alfil blanco" width="100px" height="100px"></div>
+                </div>
+                <div class="columna"> 
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-dama.png" alt="Dama negra" width="100px" height="100px"></div>
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="flexAjedrezNegro"></div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"></div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-dama.png" alt="Dama blanca" width="100px" height="100px"></div>
+                </div>    
+                <div class="columna">
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-rey.png" alt="Rey negro" width="100px" height="100px"></div>
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"></div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"></div>
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-rey.png" alt="Rey blanco" width="100px" height="100px"></div>
+                </div>
+                <div class="columna"> 
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-alfil.png" alt="Alfil negro" width="100px" height="100px"></div>
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="flexAjedrezNegro"></div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"></div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-alfil.png" alt="Alfil blanco" width="100px" height="100px"></div>
+                </div>    
+                <div class="columna">
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-caballo.png" alt="Caballo negro" width="100px" height="100px"></div>
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"></div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"></div>
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-caballo.png" alt="Caballo blanco blanca"width="100px" height="100px"></div>
+                </div>
+                <div class="columna"> 
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-torre.png" alt="Torre negra" width="100px" height="100px"></div>
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px">></div>
+                    <div class="flexAjedrezNegro"> </div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"></div>
+                    <div class="flexAjedrezBlanco"></div>
+                    <div class="flexAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="flexAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-torre.png" alt="Torre blanca" width="100px" height="100px"></div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <h1>FLUID</h1>
+    <table>
+        <tr>
+            <td>
+                <div class="columna">
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-torre.png" alt="Torre negra" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezBlanco"> </div>
+                    <div class="fluidAjedrezNegro"> </div>
+                    <div class="fluidAjedrezBlanco"> </div>
+                    <div class="fluidAjedrezNegro"> </div>
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-torre.png" alt="Torre blanca" width="100px" height="100px"></div>
+                </div>
+                <div class="columna"> 
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-caballo.png" alt="Caballo negro" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezNegro"></div>
+                    <div class="fluidAjedrezBlanco"></div>
+                    <div class="fluidAjedrezNegro"></div>
+                    <div class="fluidAjedrezBlanco"></div>
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-caballo.png" alt="Caballo blanco blanca"width="100px" height="100px"></div>
+                </div>
+                <div class="columna">
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-alfil.png" alt="Alfil negro" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezBlanco"></div>
+                    <div class="fluidAjedrezNegro"></div>
+                    <div class="fluidAjedrezBlanco"></div>
+                    <div class="fluidAjedrezNegro"></div>
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-alfil.png" alt="Alfil blanco" width="100px" height="100px"></div>
+                </div>
+                <div class="columna"> 
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-dama.png" alt="Dama negra" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezNegro"></div>
+                    <div class="fluidAjedrezBlanco"></div>
+                    <div class="fluidAjedrezNegro"></div>
+                    <div class="fluidAjedrezBlanco"></div>
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-dama.png" alt="Dama blanca" width="100px" height="100px"></div>
+                </div>    
+                <div class="columna">
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-rey.png" alt="Rey negro" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezBlanco"></div>
+                    <div class="fluidAjedrezNegro"></div>
+                    <div class="fluidAjedrezBlanco"></div>
+                    <div class="fluidAjedrezNegro"></div>
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-rey.png" alt="Rey blanco" width="100px" height="100px"></div>
+                </div>
+                <div class="columna"> 
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-alfil.png" alt="Alfil negro" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezNegro"></div>
+                    <div class="fluidAjedrezBlanco"></div>
+                    <div class="fluidAjedrezNegro"></div>
+                    <div class="fluidAjedrezBlanco"></div>
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-alfil.png" alt="Alfil blanco" width="100px" height="100px"></div>
+                </div>    
+                <div class="columna">
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-caballo.png" alt="Caballo negro" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezBlanco"></div>
+                    <div class="fluidAjedrezNegro"></div>
+                    <div class="fluidAjedrezBlanco"></div>
+                    <div class="fluidAjedrezNegro"></div>
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-caballo.png" alt="Caballo blanco blanca"width="100px" height="100px"></div>
+                </div>
+                <div class="columna"> 
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-torre.png" alt="Torre negra" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px">></div>
+                    <div class="fluidAjedrezNegro"> </div>
+                    <div class="fluidAjedrezBlanco"></div>
+                    <div class="fluidAjedrezNegro"></div>
+                    <div class="fluidAjedrezBlanco"></div>
+                    <div class="fluidAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fluidAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-torre.png" alt="Torre blanca" width="100px" height="100px"></div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <h1>FIX</h1>
+    <table>
+        <tr>
+            <td>
+                <div class="columna">
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-torre.png" alt="Torre negra" width="100px" height="100px"></div>
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="fixAjedrezBlanco"> </div>
+                    <div class="fixAjedrezNegro"> </div>
+                    <div class="fixAjedrezBlanco"> </div>
+                    <div class="fixAjedrezNegro"> </div>
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-torre.png" alt="Torre blanca" width="100px" height="100px"></div>
+                </div>
+                <div class="columna"> 
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-caballo.png" alt="Caballo negro" width="100px" height="100px"></div>
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="fixAjedrezNegro"></div>
+                    <div class="fixAjedrezBlanco"></div>
+                    <div class="fixAjedrezNegro"></div>
+                    <div class="fixAjedrezBlanco"></div>
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-caballo.png" alt="Caballo blanco blanca"width="100px" height="100px"></div>
+                </div>
+                <div class="columna">
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-alfil.png" alt="Alfil negro" width="100px" height="100px"></div>
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="fixAjedrezBlanco"></div>
+                    <div class="fixAjedrezNegro"></div>
+                    <div class="fixAjedrezBlanco"></div>
+                    <div class="fixAjedrezNegro"></div>
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-alfil.png" alt="Alfil blanco" width="100px" height="100px"></div>
+                </div>
+                <div class="columna"> 
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-dama.png" alt="Dama negra" width="100px" height="100px"></div>
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="fixAjedrezNegro"></div>
+                    <div class="fixAjedrezBlanco"></div>
+                    <div class="fixAjedrezNegro"></div>
+                    <div class="fixAjedrezBlanco"></div>
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-dama.png" alt="Dama blanca" width="100px" height="100px"></div>
+                </div>    
+                <div class="columna">
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-rey.png" alt="Rey negro" width="100px" height="100px"></div>
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="fixAjedrezBlanco"></div>
+                    <div class="fixAjedrezNegro"></div>
+                    <div class="fixAjedrezBlanco"></div>
+                    <div class="fixAjedrezNegro"></div>
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-rey.png" alt="Rey blanco" width="100px" height="100px"></div>
+                </div>
+                <div class="columna"> 
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-alfil.png" alt="Alfil negro" width="100px" height="100px"></div>
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="fixAjedrezNegro"></div>
+                    <div class="fixAjedrezBlanco"></div>
+                    <div class="fixAjedrezNegro"></div>
+                    <div class="fixAjedrezBlanco"></div>
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-alfil.png" alt="Alfil blanco" width="100px" height="100px"></div>
+                </div>    
+                <div class="columna">
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-caballo.png" alt="Caballo negro" width="100px" height="100px"></div>
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px"></div>
+                    <div class="fixAjedrezBlanco"></div>
+                    <div class="fixAjedrezNegro"></div>
+                    <div class="fixAjedrezBlanco"></div>
+                    <div class="fixAjedrezNegro"></div>
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-caballo.png" alt="Caballo blanco blanca"width="100px" height="100px"></div>
+                </div>
+                <div class="columna"> 
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-torre.png" alt="Torre negra" width="100px" height="100px"></div>
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/negro-peon.png" alt="Peon negro" width="100px" height="100px">></div>
+                    <div class="fixAjedrezNegro"> </div>
+                    <div class="fixAjedrezBlanco"></div>
+                    <div class="fixAjedrezNegro"></div>
+                    <div class="fixAjedrezBlanco"></div>
+                    <div class="fixAjedrezNegro"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-peon.png" alt="Peon blanco" width="100px" height="100px"></div>
+                    <div class="fixAjedrezBlanco"><img src="../Tableros-Ajedrez/piezas-ajedrez/blanco-torre.png" alt="Torre blanca" width="100px" height="100px"></div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
