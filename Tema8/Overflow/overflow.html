@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Overflow en CSS</title>
+  <meta name="Antonio Alvarez Moyano" content="Página explicativa de la propiedad overflow en CSS">
+  <link rel="stylesheet" href="estilos-overflow.css">
+</head>
+<body>
+  <div class="contenido">
+    <h1>Overflow en CSS</h1>
+    <p>La propiedad CSS <b>overflow</b> controla el comportamiento cuando el contenido de un elemento excede el espacio disponible dentro de su caja.</p>
+    <ul>
+      <li><b>visible:</b> El contenido sobresale del contenedor.</li>
+      <li><b>hidden:</b> El contenido que excede se oculta.</li>
+      <li><b>scroll:</b> Se agrega una barra de desplazamiento para navegar el contenido oculto.</li>
+      <li><b>auto:</b> Similar a scroll, pero la barra de desplazamiento aparece solo cuando es necesario.</li>
+    </ul>
+
+    <p>Esto es útil para manejar situaciones donde el contenido es más grande que el contenedor, evitando que afecte negativamente al diseño de la página.</p>
+
+    <div class="caja">
+      <h2>Ejemplo de Overflow</h2>
+      <p><strong>La propiedad overflow:</strong></p>
+      <pre>
+        .contenedor {
+          width: 200px;
+          height: 100px;
+          border: 1px solid #333;
+          overflow: auto;
+        }
+      </pre>
+      <p>En este ejemplo, se ha aplicado la propiedad overflow con valor auto, permitiendo la aparición de una barra de desplazamiento si el contenido excede el tamaño del contenedor.</p>
+    </div>
+
+    <div class="caja">
+      <h2>Consideraciones</h2>
+      <p>Es esencial entender cómo utilizar la propiedad overflow para garantizar una experiencia de usuario adecuada y evitar problemas de diseño.</p>
+    </div>
+
+  </div>
+</body>
+</html>
