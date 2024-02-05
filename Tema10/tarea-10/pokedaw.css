@@ -1,10 +1,16 @@
-PokeDAW {
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin-bottom: 20px;
-  background-color: #fff;
+* {
+padding: 10%;
+margin: 10%
+}
+Carta {
+  border: 2px solid #333;
+  margin: 100px;
+  width: 50px;
+  border-style: dotted;
+  background-color: #ce2e2e;
 }
 
+/* 
 Nombre {
   font-size: 1.2em;
   font-weight: bold;
@@ -61,7 +67,7 @@ Destreza, Nivel, Fuerza {
   margin-top: 5px;
 }
 
-Evolucion, .PuntosVida {
+Evolucion, PuntosVida {
   margin-top: 10px;
   font-weight: bold;
   color: #e74c3c;
