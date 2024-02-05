@@ -1,0 +1,68 @@
+PokeDAW {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+Nombre {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+NumeroPokedex {
+  color: #888;
+}
+
+Atributo {
+  font-style: italic;
+  color: #3498db;
+}
+
+Imagen {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+Descripcion {
+  margin-top: 10px;
+}
+
+Tipo {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+Genero {
+  margin-top: 5px;
+  color: #27ae60;
+}
+
+Estado {
+  margin-top: 10px;
+}
+
+Habilidades {
+  list-style-type: none;
+  padding: 0;
+}
+
+Habilidad {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+Destreza, Nivel, Fuerza {
+  margin-top: 5px;
+}
+
+Evolucion, .PuntosVida {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #e74c3c;
+}

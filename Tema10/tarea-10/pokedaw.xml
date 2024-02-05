@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="pokedaw.css"?>
+
+
+<PokeDAW>
+    <carta>
+        <Pokemon>
+            <Nombre>Bulbasaur</Nombre>
+            <NumeroPokedex>001</NumeroPokedex>
+            <Atributo>Planta</Atributo>
+            <Imagen>bulbasaur.png</Imagen>
+            <Descripcion>Este Pokémon es conocido por tener una planta en su espalda desde el nacimiento.</Descripcion>
+            <Tipo>Planta</Tipo>
+            <Genero>Masculino</Genero>
+            <Estado>
+            <Habilidades>
+                <Habilidad>Solar Beam</Habilidad>
+                <Habilidad>Razor Leaf</Habilidad>
+            </Habilidades>
+            <Destreza>8</Destreza>
+            <Nivel>5</Nivel>
+            <Fuerza>60</Fuerza>
+            </Estado>
+            <Evolucion>
+            <Fase>2</Fase>
+            </Evolucion>
+            <PuntosVida>80</PuntosVida>
+        </Pokemon>
+    </carta>
+
+    <Pokemon>
+        <Nombre>Bulbasaur</Nombre>
+        <NumeroPokedex>001</NumeroPokedex>
+        <Atributo>Planta</Atributo>
+        <Imagen>bulbasaur.png</Imagen>
+        <Descripcion>Este Pokémon es conocido por tener una planta en su espalda desde el nacimiento.</Descripcion>
+        <Tipo>Planta</Tipo>
+        <Genero>Masculino</Genero>
+        <Estado>
+        <Habilidades>
+            <Habilidad>Solar Beam</Habilidad>
+            <Habilidad>Razor Leaf</Habilidad>
+        </Habilidades>
+        <Destreza>8</Destreza>
+        <Nivel>5</Nivel>
+        <Fuerza>60</Fuerza>
+        </Estado>
+        <Evolucion>
+        <Fase>2</Fase>
+        </Evolucion>
+        <PuntosVida>80</PuntosVida>
+    </Pokemon>
+
+</PokeDAW>
