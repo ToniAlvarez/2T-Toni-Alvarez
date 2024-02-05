@@ -1,74 +1,69 @@
-* {
-padding: 10%;
-margin: 10%
-}
 Carta {
-  border: 2px solid #333;
-  margin: 100px;
-  width: 50px;
-  border-style: dotted;
-  background-color: #ce2e2e;
+  display: block;
+  margin: 20px;
 }
 
-/* 
+Pokemon {
+  display: block;
+  border: 2px solid #000;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+}
+
 Nombre {
-  font-size: 1.2em;
+  display: block;
   font-weight: bold;
+  font-size: 1.2em;
+  color: #333;
 }
 
 NumeroPokedex {
-  color: #888;
-}
-
-Atributo {
   font-style: italic;
-  color: #3498db;
-}
-
-Imagen {
-  max-width: 200px;
-  max-height: 200px;
 }
 
 Descripcion {
-  margin-top: 10px;
+  display: block;
+  margin-top: 5px;
 }
 
 Tipo {
-  margin-top: 10px;
+  display: block;
   font-weight: bold;
-  color: #e74c3c;
 }
 
 Genero {
-  margin-top: 5px;
-  color: #27ae60;
+  display: block;
 }
 
 Estado {
+  display: block;
   margin-top: 10px;
 }
 
 Habilidades {
-  list-style-type: none;
-  padding: 0;
+  display: block;
 }
 
 Habilidad {
   display: inline-block;
-  background-color: #3498db;
-  color: #fff;
-  padding: 5px 10px;
-  margin: 5px;
+  margin-right: 10px;
+  background-color: #ddd;
+  padding: 5px;
   border-radius: 5px;
 }
 
-Destreza, Nivel, Fuerza {
-  margin-top: 5px;
+Evolucion {
+  display: block;
+  margin-top: 10px;
 }
 
-Evolucion, PuntosVida {
+Fase {
+  font-style: italic;
+}
+
+PuntosVida {
+  display: block;
   margin-top: 10px;
   font-weight: bold;
-  color: #e74c3c;
 }
