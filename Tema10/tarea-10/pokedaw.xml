@@ -6,6 +6,189 @@
     <Carta>
         <Pokemon>
             <Nombre>Bulbasaur</Nombre>
+            <imagen foto="bulbasur"> </imagen>
+            <NumeroPokedex>001</NumeroPokedex>
+            <Descripcion>Este Pokémon es conocido por tener una planta en su espalda desde el nacimiento.</Descripcion>
+            <Tipo>Planta</Tipo>
+            <Genero>Masculino</Genero>
+            <Estado>
+            <Habilidades>
+                <Habilidad>Solar Beam</Habilidad>
+                <Habilidad>Razor Leaf</Habilidad>
+            </Habilidades>
+            <Destreza>8</Destreza>
+            <Nivel>5</Nivel>
+            <Fuerza>60</Fuerza>
+            </Estado>
+            <Evolucion>
+            <Fase>2</Fase>
+            </Evolucion>
+            <PuntosVida>80</PuntosVida>
+        </Pokemon>
+    </Carta>
+    <Carta>
+        <Pokemon>
+            <Nombre>Charmander</Nombre>
+            <NumeroPokedex>004</NumeroPokedex>
+            <Descripcion>Este Pokémon tiene una llama en la punta de su cola que arde más intensamente cuando está emocionado.</Descripcion>
+            <Tipo>Fuego</Tipo>
+            <Genero>Masculino</Genero>
+            <Estado>
+            <Habilidades>
+                <Habilidad>Flamethrower</Habilidad>
+                <Habilidad>Dragon Rage</Habilidad>
+            </Habilidades>
+            <Destreza>7</Destreza>
+            <Nivel>4</Nivel>
+            <Fuerza>55</Fuerza>
+            </Estado>
+            <Evolucion>
+            <Fase>2</Fase>
+            </Evolucion>
+            <PuntosVida>70</PuntosVida>
+        </Pokemon>
+    </Carta>
+    <Carta>
+        <Pokemon>
+            <Nombre>Squirtle</Nombre>
+            <NumeroPokedex>007</NumeroPokedex>
+            <Atributo>Agua</Atributo>
+            <Descripcion>Este Pokémon puede lanzar ráfagas de agua con precisión para debilitar a sus oponentes.</Descripcion>
+            <Tipo>Agua</Tipo>
+            <Genero>Femenino</Genero>
+            <Estado>
+            <Habilidades>
+                <Habilidad>Hydro Pump</Habilidad>
+                <Habilidad>Water Gun</Habilidad>
+            </Habilidades>
+            <Destreza>9</Destreza>
+            <Nivel>6</Nivel>
+            <Fuerza>65</Fuerza>
+            </Estado>
+            <Evolucion>
+            <Fase>2</Fase>
+            </Evolucion>
+            <PuntosVida>75</PuntosVida>
+        </Pokemon>
+    </Carta>
+    <Carta>
+        <Pokemon>   
+            <Nombre>Pikachu</Nombre>
+            <NumeroPokedex>025</NumeroPokedex>
+            <Atributo>Eléctrico</Atributo>
+            <Descripcion>Este Pokémon roza la electricidad en sus mejillas para liberar potentes descargas. aaaaaaaaaaaaaaaa</Descripcion>
+            <Tipo>Eléctrico</Tipo>
+            <Genero>Femenino</Genero>
+            <Estado>
+                <Habilidades>
+                    <Habilidad>Thunderbolt</Habilidad>
+                    <Habilidad>Quick Attack</Habilidad>
+                </Habilidades>
+                <Destreza>10</Destreza>
+                <Nivel>7</Nivel>
+                <Fuerza>55</Fuerza>
+            </Estado>
+            <Evolucion>
+                <Fase>2</Fase>
+            </Evolucion>
+            <PuntosVida>65</PuntosVida>
+        </Pokemon>
+    </Carta>
+    <Carta>
+        <Pokemon>
+            <Nombre>Eevee</Nombre>
+            <NumeroPokedex>133</NumeroPokedex>
+            <Atributo>Normal</Atributo>
+            <Descripcion>Este Pokémon tiene la capacidad única de evolucionar en varias formas diferentes.</Descripcion>
+            <Tipo>Normal</Tipo>
+            <Genero>Masculino</Genero>
+            <Estado>
+                <Habilidades>
+                    <Habilidad>Swift</Habilidad>
+                    <Habilidad>Quick Attack</Habilidad>
+                </Habilidades>
+                <Destreza>8</Destreza>
+                <Nivel>5</Nivel>
+                <Fuerza>50</Fuerza>
+            </Estado>
+            <Evolucion>
+                <Fase>1</Fase>
+            </Evolucion>
+            <PuntosVida>60</PuntosVida>
+        </Pokemon>
+    </Carta>
+    <Carta>
+        <Pokemon>
+            <Nombre>Jigglypuff</Nombre>
+            <NumeroPokedex>039</NumeroPokedex>
+            <Atributo>Hada</Atributo>
+            <Descripcion>Este Pokémon canta una canción que induce el sueño en sus oponentesaaaaaaaaaaaaaaaaaaa.</Descripcion>
+            <Tipo>Hada</Tipo>
+            <Genero>Femenino</Genero>
+            <Estado>
+                <Habilidades>
+                    <Habilidad>Sing</Habilidad>
+                    <Habilidad>Dazzling Gleam</Habilidad>
+                </Habilidades>
+                <Destreza>7</Destreza>
+                <Nivel>4</Nivel>
+                <Fuerza>45</Fuerza>
+            </Estado>
+            <Evolucion>
+                <Fase>2</Fase>
+            </Evolucion>
+            <PuntosVida>55</PuntosVida>
+        </Pokemon>
+    </Carta>
+    <Carta>
+        <Pokemon>
+            <Nombre>Machop</Nombre>
+            <NumeroPokedex>066</NumeroPokedex>
+            <Atributo>Lucha</Atributo>
+            <Descripcion>Este Pokémon entrena continuamente para fortalecer sus músculos y aumentar su resistencia.</Descripcion>
+            <Tipo>Lucha</Tipo>
+            <Genero>Masculino</Genero>
+            <Estado>
+                <Habilidades>
+                    <Habilidad>Low Kick</Habilidad>
+                    <Habilidad>Karate Chop</Habilidad>
+                </Habilidades>
+                <Destreza>6</Destreza>
+                <Nivel>3</Nivel>
+                <Fuerza>50</Fuerza>
+            </Estado>
+            <Evolucion>
+                <Fase>1</Fase>
+            </Evolucion>
+            <PuntosVida>55</PuntosVida>
+        </Pokemon>
+    </Carta>
+    <Carta>
+        <Pokemon>
+            <Nombre>Vulpix</Nombre>
+            <NumeroPokedex>037</NumeroPokedex>
+            <Atributo>Fuego</Atributo>
+            <Descripcion>Este Pokémon es conocido por tener seis colas, las cuales arden con fuego cuando está emocionado.</Descripcion>
+            <Tipo>Fuego</Tipo>
+            <Genero>Femenino</Genero>
+            <Estado>
+                <Habilidades>
+                    <Habilidad>Ember</Habilidad>
+                    <Habilidad>Quick Attack</Habilidad>
+                </Habilidades>
+                <Destreza>7</Destreza>
+                <Nivel>4</Nivel>
+                <Fuerza>45</Fuerza>
+            </Estado>
+            <Evolucion>
+                <Fase>1</Fase>
+            </Evolucion>
+            <PuntosVida>50</PuntosVida>
+        </Pokemon>
+    </Carta>
+<Carta>
+        <Pokemon>
+            <Nombre>Bulbasaur</Nombre>
             <NumeroPokedex>001</NumeroPokedex>
             <Atributo>Planta</Atributo>
             <Descripcion>Este Pokémon es conocido por tener una planta en su espalda desde el nacimiento.</Descripcion>
@@ -77,7 +260,7 @@
             <Nombre>Pikachu</Nombre>
             <NumeroPokedex>025</NumeroPokedex>
             <Atributo>Eléctrico</Atributo>
-            <Descripcion>Este Pokémon roza la electricidad en sus mejillas para liberar potentes descargas.</Descripcion>
+            <Descripcion>Este Pokémon roza la electricidad en sus mejillas para liberar potentes descargas aaaaaaaaaaaaaaaaaaaa.</Descripcion>
             <Tipo>Eléctrico</Tipo>
             <Genero>Femenino</Genero>
             <Estado>
@@ -123,7 +306,7 @@
             <Nombre>Jigglypuff</Nombre>
             <NumeroPokedex>039</NumeroPokedex>
             <Atributo>Hada</Atributo>
-            <Descripcion>Este Pokémon canta una canción que induce el sueño en sus oponentes.</Descripcion>
+            <Descripcion>Este Pokémon canta una canción que induce el sueño en sus oponentes. aaaaaaaaaaaaaaaaaaaaaa</Descripcion>
             <Tipo>Hada</Tipo>
             <Genero>Femenino</Genero>
             <Estado>
