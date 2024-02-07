@@ -3,50 +3,102 @@ PokeDAW{
   background-size:contain;
 }
 Carta {
+  align-items: center;
   float:left;
-  width:30%;
-  margin:1%;
-  height: 25%;
+  width:20%;
+  margin:5%;
+  margin-right:8%;
 }
 
-Pokemon {
+PokemonPlanta {
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/fondoplanta.jpg);
+  background-size: cover;
   display: block;
   padding:2%;
-  border: 3px solid #0017e2;
+  border: 7px solid #d1ff06;
   border-radius: 5%;
-  border-style:inset;
-  background-color: #f0f0f0;
+  border-style:groove;
+
+  
+  font-family: Verdana, Tahoma, sans-serif;
+  color: black;
 }
+
+PokemonElectrico {
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/fondoelectrico.jpg);
+  background-size: cover;
+  display: block;
+  padding:2%;
+  border: 7px solid #d1ff06;
+  border-radius: 5%;
+  border-style:groove;
+
+  font-family: Verdana, Tahoma, sans-serif;
+  color: black;
+}
+PokemonFuego {
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/fondofuego.jpg);
+  background-size: cover;
+  display: block;
+  padding:2%;
+  border: 7px solid #d1ff06;
+  border-radius: 5%;
+  border-style:groove;
+
+  font-family: Verdana, Tahoma, sans-serif;
+  color: black;
+}
+
 
 Nombre {
   font-family: Verdana, Tahoma, sans-serif;
   text-align: center;
+  margin-left:10%;
   display: block;
-  font-weight:bolder ;
+  font-weight:bolder;
   font-size: 1.7em;
-  color: #333;
+  color: #000000;
 }
 
 NumeroPokedex {
+  float:right;
   font-style: italic;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }
 
 Descripcion {
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: small;
   text-align: justify;
   display: block;
   margin-top: 5px;
+  text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.5);
 }
 
-Tipo {
+Planta {
   display: inline-block;
   margin-right: 10px;
+  margin-top:5px;
   background-color: #07ac30;
   padding: 5px;
   border-radius: 5px;
 }
+Fuego {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top:5px;
+  background-color: #ce5b3f;
+  padding: 5px;
+  border-radius: 5px;
+}
 
+
+Electrico {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top:5px;
+  background-color: #cec03f;
+  padding: 5px;
+  border-radius: 5px;
+}
 Genero {
   display: block;
 }
@@ -58,6 +110,8 @@ Estado {
 
 Habilidades {
   display: block;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
 Habilidad {
@@ -70,6 +124,7 @@ Habilidad {
 
 Evolucion {
   display: block;
+  font-weight: bold;
   margin-top: 10px;
 }
 
@@ -77,11 +132,24 @@ Fase {
   font-style: italic;
 }
 
+Destreza, Nivel, Fuerza {
+  font-weight: bold;
+}
+
 PuntosVida {
   display: block;
   margin-top: 10px;
   font-weight: bold;
 }
+
+
+
+ImagenFondo{  
+  width: 200px;
+  border: 2px black;
+  
+}
+
 
 imagen[foto="bulbasur"]{
   background-image: url(/Tema10/tarea-10/fotos-pokemon/bulbasur.png);
@@ -91,7 +159,23 @@ imagen[foto="bulbasur"]{
   display: block;
   margin: 1px auto;
   border: 1px green;
-
 }
 
-
+imagen[foto="pikachu"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/pikachu.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+imagen[foto="charmander"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/charmander.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}

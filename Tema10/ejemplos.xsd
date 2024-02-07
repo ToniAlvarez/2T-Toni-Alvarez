@@ -1,0 +1,10 @@
+<xs:schema xmlns:xs="https://ww.w3.org/2001/XMLSchema">
+    <xs:element name="biblioteca">
+        <xs:complexType>
+            <xs:secuence>
+                <xs:element name="pelicula"></xs:element name="pelicula">
+            </xs:secuence>
+        </xs:complexType>
+    </xs:element name="biblioteca">
+
+</xs:schema>
