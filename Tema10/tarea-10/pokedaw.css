@@ -48,6 +48,42 @@ PokemonFuego {
   font-family: Verdana, Tahoma, sans-serif;
   color: black;
 }
+PokemonAgua {
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/fondoagua.jpg);
+  background-size: cover;
+  display: block;
+  padding:2%;
+  border: 7px solid #d1ff06;
+  border-radius: 5%;
+  border-style:groove;
+
+  font-family: Verdana, Tahoma, sans-serif;
+  color: black;
+}
+PokemonVolador {
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/fondovolador.jpg);
+  background-size: cover;
+  display: block;
+  padding:2%;
+  border: 7px solid #d1ff06; 
+  border-radius: 5%;
+  border-style:groove;
+
+  font-family: Verdana, Tahoma, sans-serif;
+  color: black;
+}
+PokemonPsiquico {
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/fondopsiquico.jpg);
+  background-size: cover;
+  display: block;
+  padding:2%;
+  border: 7px solid #d1ff06;
+  border-radius: 5%;
+  border-style:groove;
+
+  font-family: Verdana, Tahoma, sans-serif;
+  color: black;
+}
 
 
 Nombre {
@@ -89,8 +125,22 @@ Fuego {
   padding: 5px;
   border-radius: 5px;
 }
-
-
+Agua {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top:5px;
+  background-color: #0a1dcf;
+  padding: 5px;
+  border-radius: 5px;
+}
+Volador {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top:5px;
+  background-color: #74afe6;
+  padding: 5px;
+  border-radius: 5px;
+}
 Electrico {
   display: inline-block;
   margin-right: 10px;
@@ -99,6 +149,16 @@ Electrico {
   padding: 5px;
   border-radius: 5px;
 }
+Psiquico {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top:5px;
+  background-color: #6e216b;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
 Genero {
   display: block;
 }
@@ -179,3 +239,148 @@ imagen[foto="charmander"]{
   margin: 1px auto;
   border: 1px green;
 }
+imagen[foto="charizard"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/charizard.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+imagen[foto="blastoise"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/blastoise.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+imagen[foto="venusaur"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/venusaur.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+imagen[foto="jolteon"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/jolteon.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+imagen[foto="lapras"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/lapras.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+imagen[foto="flareon"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/flareon.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+imagen[foto="victreebrel"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/victreebel.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+imagen[foto="pidgeot"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/pidgeot.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+imagen[foto="fearow"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/fearow.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+imagen[foto="pidgeotto"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/pidgeotto.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+imagen[foto="electrike"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/electrike.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+imagen[foto="exeggcute"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/exeggcute.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+imagen[foto="alakazam"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/alakazam.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+
+imagen[foto="mewtwo"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/mewtwo.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+imagen[foto="abra"]{
+  background-image: url(/Tema10/tarea-10/fotos-pokemon/abra.png);
+  background-size:contain;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+  border: 1px green;
+}
+
+
+
+
+
+
+
+
+

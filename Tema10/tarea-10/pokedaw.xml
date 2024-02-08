@@ -29,53 +29,423 @@
             <PuntosVida>Puntos de vida: 80</PuntosVida>
         </PokemonPlanta>
     </Carta>
+
+    <Carta>
+        <PokemonElectrico>
+            <NumeroPokedex>025</NumeroPokedex>
+            <Nombre>Pikachu</Nombre>
+            <imagen foto="pikachu"> </imagen>
+            <Descripcion>Este Pokémon es conocido por su capacidad para lanzar descargas eléctricas.</Descripcion>
+            <Electrico>Eléctrico</Electrico>
+            <Genero>Genero: Masculino</Genero>
+            <Estado>
+                <Habilidades>
+                    Habilidades
+                    <Habilidad>Thunderbolt</Habilidad>
+                    <Habilidad>Attack</Habilidad>
+                </Habilidades>
+                <Destreza>Destreza:</Destreza>................<Destreza>9</Destreza>
+                <Nivel>Nivel:</Nivel>......................<Nivel>9</Nivel>
+                <Fuerza>Fuerza:</Fuerza>...................<Fuerza>55</Fuerza>
+            </Estado>
+            <Evolucion>
+                Evolución: <Fase>Fase 1</Fase>
+            </Evolucion>
+            <PuntosVida>Puntos de vida: 70</PuntosVida>
+        </PokemonElectrico>
+    </Carta>   
+    <Carta>
+        <PokemonFuego>
+            <NumeroPokedex>004</NumeroPokedex>
+            <Nombre>Charmander</Nombre>
+            <imagen foto="charmander"> </imagen>
+            <Descripcion>Este Pokémon es conocido por su cola en llamas y su afinidad por el elemento fuego.</Descripcion>
+            <Fuego>Fuego</Fuego>
+            <Genero>Genero: Masculino</Genero>
+            <Estado>
+                <Habilidades>
+                    Habilidades
+                    <Habilidad>Ember</Habilidad>
+                    <Habilidad>Scratch</Habilidad>
+                </Habilidades>
+                <Destreza>Destreza:</Destreza>................<Destreza>7</Destreza>
+                <Nivel>Nivel:</Nivel>......................<Nivel>5</Nivel>
+                <Fuerza>Fuerza:</Fuerza>...................<Fuerza>52</Fuerza>
+            </Estado>
+            <Evolucion>
+                Evolución: <Fase>Fase 2</Fase>
+            </Evolucion>
+            <PuntosVida>Puntos de vida: 70</PuntosVida>
+        </PokemonFuego>
+    </Carta>
+    <Carta>
+    <PokemonPsiquico>
+        <NumeroPokedex>065</NumeroPokedex>
+        <Nombre>Abra</Nombre>
+        <imagen foto="abra"> </imagen>
+        <Descripcion>Abra es un Pokémon psíquico que tiene habilidades telepáticas en desarrollo.</Descripcion>
+        <Psiquico>Psíquico</Psiquico>
+        <Genero>Genero: Variado</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Teleport</Habilidad>
+                <Habilidad>Confusion</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>6</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>16</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>20</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 1
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 25</PuntosVida>
+    </PokemonPsiquico>
+</Carta>
+
+    <Carta>
+    <PokemonVolador>
+        <NumeroPokedex>018</NumeroPokedex>
+        <Nombre>Pidgeot</Nombre>
+        <imagen foto="pidgeot"> </imagen>
+        <Descripcion>Pidgeot es un majestuoso Pokémon volador que domina los cielos por su tamaño.</Descripcion>
+        <Volador>Volador</Volador>
+        <Genero>Genero: Masculino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Wing Attack</Habilidad>
+                <Habilidad>Aerial Ace</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>9</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>36</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>80</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 2
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 83</PuntosVida>
+    </PokemonVolador>
+</Carta>
+<Carta>
+    <PokemonPsiquico>
+        <NumeroPokedex>065</NumeroPokedex>
+        <Nombre>Alakazam</Nombre>
+        <imagen foto="alakazam"> </imagen>
+        <Descripcion>Alakazam es un Pokémon psíquico que posee habilidades telepáticas.</Descripcion>
+        <Psiquico>Psíquico</Psiquico>
+        <Genero>Genero: Masculino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Psybeam</Habilidad>
+                <Habilidad>Psychic</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>10</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>42</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>75</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 3
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 55</PuntosVida>
+    </PokemonPsiquico>
+</Carta>
+
+<Carta>
+    <PokemonFuego>
+        <NumeroPokedex>006</NumeroPokedex>
+        <Nombre>Charizard</Nombre>
+        <imagen foto="charizard"> </imagen>
+        <Descripcion>Charizard vuela por los cielos en busca de oponentes dignos. </Descripcion>
+        <Fuego>Fuego</Fuego>
+        <Genero>Genero: Masculino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Flamethrower</Habilidad>
+                <Habilidad>Dragon Claw</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>8</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>36</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>78</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: <Fase>Fase 3</Fase>
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 78</PuntosVida>
+    </PokemonFuego>
+</Carta>
+<Carta>
+    <PokemonAgua>
+        <NumeroPokedex>009</NumeroPokedex>
+        <Nombre>Blastoise</Nombre>
+        <imagen foto="blastoise"> </imagen>
+        <Descripcion>Blastoise es un poderoso Pokémon acuático que puede disparar desde sus cañones.</Descripcion>
+        <Agua>Agua</Agua>
+        <Genero>Genero: Masculino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Hydro Pump</Habilidad>
+                <Habilidad>Ice Beam</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>9</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>42</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>85</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: <Fase>Fase 3</Fase>
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 80</PuntosVida>
+    </PokemonAgua>
+</Carta>
+<Carta>
+    <PokemonPlanta>
+        <NumeroPokedex>003</NumeroPokedex>
+        <Nombre>Venusaur</Nombre>
+        <imagen foto="venusaur"> </imagen>
+        <Descripcion>Venusaur es un Pokémon gigante que emana un aroma embriagador.</Descripcion>
+        <Planta>Planta</Planta>
+        <Genero>Genero: Masculino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Vine Whip</Habilidad>
+                <Habilidad>Solar Beam</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>8</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>34</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>75</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: <Fase>Fase 3</Fase>
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 78</PuntosVida>
+    </PokemonPlanta>
+</Carta>
 <Carta>
     <PokemonElectrico>
-        <NumeroPokedex>025</NumeroPokedex>
-        <Nombre>Pikachu</Nombre>
-        <imagen foto="pikachu"> </imagen>
-        <Descripcion>Este Pokémon es conocido por su tierna apariencia y su capacidad para lanzar descargas eléctricas.</Descripcion>
+        <NumeroPokedex>135</NumeroPokedex>
+        <Nombre>Jolteon</Nombre>
+        <imagen foto="jolteon"> </imagen>
+        <Descripcion>Jolteon es un Pokémon eléctrico veloz y ágil único y muy poderoso.</Descripcion>
         <Electrico>Eléctrico</Electrico>
         <Genero>Genero: Masculino</Genero>
         <Estado>
             <Habilidades>
                 Habilidades
                 <Habilidad>Thunderbolt</Habilidad>
-                <Habilidad>Attack</Habilidad>
+                <Habilidad>Pin Missile</Habilidad>
             </Habilidades>
-            <Destreza>Destreza:</Destreza>................<Destreza>9</Destreza>
-            <Nivel>Nivel:</Nivel>......................<Nivel>9</Nivel>
-            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>55</Fuerza>
-        </Estado>
-        <Evolucion>
-            Evolución: <Fase>Fase 1</Fase>
-        </Evolucion>
-        <PuntosVida>Puntos de vida: 70</PuntosVida>
-    </PokemonElectrico>
-</Carta>   
-<Carta>
-    <PokemonFuego>
-        <NumeroPokedex>004</NumeroPokedex>
-        <Nombre>Charmander</Nombre>
-        <imagen foto="charmander"> </imagen>
-        <Descripcion>Este Pokémon es conocido por su cola en llamas y su afinidad por el elemento fuego.</Descripcion>
-        <Fuego>Fuego</Fuego>
-        <Genero>Genero: Masculino</Genero>
-        <Estado>
-            <Habilidades>
-                Habilidades
-                <Habilidad>Ember</Habilidad>
-                <Habilidad>Scratch</Habilidad>
-            </Habilidades>
-            <Destreza>Destreza:</Destreza>................<Destreza>7</Destreza>
-            <Nivel>Nivel:</Nivel>......................<Nivel>5</Nivel>
-            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>52</Fuerza>
+            <Destreza>Destreza:</Destreza>................<Destreza>8</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>30</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>68</Fuerza>
         </Estado>
         <Evolucion>
             Evolución: <Fase>Fase 2</Fase>
         </Evolucion>
-        <PuntosVida>Puntos de vida: 70</PuntosVida>
+        <PuntosVida>Puntos de vida: 65</PuntosVida>
+    </PokemonElectrico>
+</Carta>
+<Carta>
+    <PokemonVolador>
+        <NumeroPokedex>022</NumeroPokedex>
+        <Nombre>Fearow</Nombre>
+        <imagen foto="fearow"> </imagen>
+        <Descripcion>Fearow es un Pokémon volador de gran tamaño y agresividad.</Descripcion>
+        <Volador>Volador</Volador>
+        <Genero>Genero: Masculino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Drill Peck</Habilidad>
+                <Habilidad>Aerial Ace</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>7</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>34</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>78</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 2
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 75</PuntosVida>
+    </PokemonVolador>
+</Carta>
+<Carta>
+    <PokemonPsiquico>
+        <NumeroPokedex>150</NumeroPokedex>
+        <Nombre>Mewtwo</Nombre>
+        <imagen foto="mewtwo"> </imagen>
+        <Descripcion>Mewtwo es un Pokémon psíquico con poderes y una inteligencia sobresaliente.</Descripcion>
+        <Psiquico>Psíquico</Psiquico>
+        <Genero>Genero: Sin género</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Psystrike</Habilidad>
+                <Habilidad>Psychic</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>10</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>70</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>110</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: No evoluciona
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 106</PuntosVida>
+    </PokemonPsiquico>
+</Carta>
+
+
+<Carta>
+    <PokemonPlanta>
+        <NumeroPokedex>071</NumeroPokedex>
+        <Nombre>Victreebel</Nombre>
+        <imagen foto="victreebrel"> </imagen>
+        <Descripcion>Victreebel es un Pokémon de planta con una trampa en forma de planta en su boca.</Descripcion>
+        <Planta>Planta</Planta>
+        <Genero>Genero: Masculino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Vine Whip</Habilidad>
+                <Habilidad>Razor Leaf</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>8</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>32</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>78</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 2
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 80</PuntosVida>
+    </PokemonPlanta>
+</Carta>
+<Carta>
+    <PokemonVolador>
+        <NumeroPokedex>017</NumeroPokedex>
+        <Nombre>Pidgeotto</Nombre>
+        <imagen foto="pidgeotto"> </imagen>
+        <Descripcion>Pidgeotto es un Pokémon volador ágil que domina los cielos con elegancia.</Descripcion>
+        <Volador>Volador</Volador>
+        <Genero>Genero: Masculino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Gust</Habilidad>
+                <Habilidad>Wing Attack</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>8</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>18</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>45</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 2
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 63</PuntosVida>
+    </PokemonVolador>
+</Carta>
+<Carta>
+    <PokemonAgua>
+        <NumeroPokedex>131</NumeroPokedex>
+        <Nombre>Lapras</Nombre>
+        <imagen foto="lapras"> </imagen>
+        <Descripcion>Lapras es un gentil Pokémon acuático que vive en las aguas frías de los mares.</Descripcion>
+        <Agua>Agua</Agua>
+        <Genero>Genero: Femenino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Surf</Habilidad>
+                <Habilidad>Ice Beam</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>8</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>35</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>70</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: No evoluciona
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 130</PuntosVida>
+    </PokemonAgua>
+</Carta>
+<Carta>
+    <PokemonFuego>
+        <NumeroPokedex>136</NumeroPokedex>
+        <Nombre>Flareon</Nombre>
+        <imagen foto="flareon"> </imagen>
+        <Descripcion>Flareon es un Pokémon de fuego con un pelaje brillante que emite calor constantemente.</Descripcion>
+        <Fuego>Fuego</Fuego>
+        <Genero>Genero: Femenino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Fire Fang</Habilidad>
+                <Habilidad>Flamethrower</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>7</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>30</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>75</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 2
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 65</PuntosVida>
     </PokemonFuego>
 </Carta>
+<Carta>
+    <PokemonElectrico>
+        <NumeroPokedex>309</NumeroPokedex>
+        <Nombre>Electrike</Nombre>
+        <imagen foto="electrike"> </imagen>
+        <Descripcion>Electrike es un Pokémon eléctrico ágil y enérgico que puede generar descargas eléctricas desde su piel.</Descripcion>
+        <Electrico>Eléctrico</Electrico>
+        <Genero>Genero: Masculino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Thunder Fang</Habilidad>
+                <Habilidad>Quick Attack</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>6</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>20</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>35</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 1
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 40</PuntosVida>
+    </PokemonElectrico>
+</Carta>
+<Carta>
+    <PokemonPlanta>
+        <NumeroPokedex>102</NumeroPokedex>
+        <Nombre>Exeggcute</Nombre>
+        <imagen foto="exeggcute"> </imagen>
+        <Descripcion>Exeggcute es un grupo de huevos de planta que se comunican entre sí a través de ondas psíquicas.</Descripcion>
+        <Planta>Planta</Planta>
+        <Genero>Genero: Variado</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Barrage</Habilidad>
+                <Habilidad>Confusion</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>5</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>25</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>30</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 1
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 60</PuntosVida>
+    </PokemonPlanta>
+</Carta>
+
+
+
+
+
 
 </PokeDAW>
