@@ -1,10 +1,51 @@
 body {
-    background-color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    text-decoration: underline;
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.trabajo {
+    width: calc(33.33% - 40px);
+    margin: 50px;
+    padding: 50px;
+    margin-right:20%;
+    margin-left:20%;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+p, li {
+    margin-bottom: 10px;
+}
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+a {
+    color: #007bff; 
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+a:hover {
+    color: #06386e; /* Cambia el color del texto al pasar el cursor sobre el enlace */
 }

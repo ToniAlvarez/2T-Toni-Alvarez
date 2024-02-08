@@ -8,7 +8,7 @@
             <NumeroPokedex>001</NumeroPokedex>
             <Nombre>Bulbasaur</Nombre>
             <imagen foto="bulbasur"> </imagen>
-            <Descripcion>Este Pokémon es conocido por tener una planta en su espalda desde el nadddd.</Descripcion>
+            <Descripcion>Este Pokémon es conocido por tener una planta en su espalda desde su nacimiento.</Descripcion>
             <Planta>Planta</Planta>
             <Genero>Genero: Masculino</Genero>
             <Estado>
