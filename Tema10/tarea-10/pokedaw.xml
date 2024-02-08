@@ -7,9 +7,7 @@
         <PokemonPlanta>
             <NumeroPokedex>001</NumeroPokedex>
             <Nombre>Bulbasaur</Nombre>
-            <ImagenFondo>
             <imagen foto="bulbasur"> </imagen>
-            </ImagenFondo>
             <Descripcion>Este Pokémon es conocido por tener una planta en su espalda desde el nadddd.</Descripcion>
             <Planta>Planta</Planta>
             <Genero>Genero: Masculino</Genero>
@@ -35,7 +33,7 @@
             <NumeroPokedex>025</NumeroPokedex>
             <Nombre>Pikachu</Nombre>
             <imagen foto="pikachu"> </imagen>
-            <Descripcion>Este Pokémon es conocido por su capacidad para lanzar descargas eléctricas.</Descripcion>
+            <Descripcion>Este Pokémon es conocido por su capacidad para lanzar descargas.</Descripcion>
             <Electrico>Eléctrico</Electrico>
             <Genero>Genero: Masculino</Genero>
             <Estado>
@@ -108,7 +106,7 @@
         <NumeroPokedex>018</NumeroPokedex>
         <Nombre>Pidgeot</Nombre>
         <imagen foto="pidgeot"> </imagen>
-        <Descripcion>Pidgeot es un majestuoso Pokémon volador que domina los cielos por su tamaño.</Descripcion>
+        <Descripcion>Pidgeot es un Pokémon volador que domina los cielos por su tamaño.</Descripcion>
         <Volador>Volador</Volador>
         <Genero>Genero: Masculino</Genero>
         <Estado>
@@ -163,8 +161,8 @@
         <Estado>
             <Habilidades>
                 Habilidades
-                <Habilidad>Flamethrower</Habilidad>
-                <Habilidad>Dragon Claw</Habilidad>
+                <Habilidad>Flame</Habilidad>
+                <Habilidad>DragonClaw</Habilidad>
             </Habilidades>
             <Destreza>Destreza:</Destreza>................<Destreza>8</Destreza>
             <Nivel>Nivel:</Nivel>......................<Nivel>36</Nivel>
@@ -181,7 +179,7 @@
         <NumeroPokedex>009</NumeroPokedex>
         <Nombre>Blastoise</Nombre>
         <imagen foto="blastoise"> </imagen>
-        <Descripcion>Blastoise es un poderoso Pokémon acuático que puede disparar desde sus cañones.</Descripcion>
+        <Descripcion>Blastoise es un Pokémon que puede disparar desde sus cañones.</Descripcion>
         <Agua>Agua</Agua>
         <Genero>Genero: Masculino</Genero>
         <Estado>
@@ -303,7 +301,7 @@
         <NumeroPokedex>071</NumeroPokedex>
         <Nombre>Victreebel</Nombre>
         <imagen foto="victreebrel"> </imagen>
-        <Descripcion>Victreebel es un Pokémon de planta con una trampa en forma de planta en su boca.</Descripcion>
+        <Descripcion>Victreebel es un Pokémon de planta con una trampa en forma de planta.</Descripcion>
         <Planta>Planta</Planta>
         <Genero>Genero: Masculino</Genero>
         <Estado>
@@ -327,7 +325,7 @@
         <NumeroPokedex>017</NumeroPokedex>
         <Nombre>Pidgeotto</Nombre>
         <imagen foto="pidgeotto"> </imagen>
-        <Descripcion>Pidgeotto es un Pokémon volador ágil que domina los cielos con elegancia.</Descripcion>
+        <Descripcion>Pidgeotto es un Pokémon volador ágil que domina los cielos.</Descripcion>
         <Volador>Volador</Volador>
         <Genero>Genero: Masculino</Genero>
         <Estado>
@@ -375,7 +373,7 @@
         <NumeroPokedex>136</NumeroPokedex>
         <Nombre>Flareon</Nombre>
         <imagen foto="flareon"> </imagen>
-        <Descripcion>Flareon es un Pokémon de fuego con un pelaje brillante que emite calor constantemente.</Descripcion>
+        <Descripcion>Flareon es un Pokémon de fuego con un pelaje brillante que emite calor.</Descripcion>
         <Fuego>Fuego</Fuego>
         <Genero>Genero: Femenino</Genero>
         <Estado>
@@ -399,14 +397,14 @@
         <NumeroPokedex>309</NumeroPokedex>
         <Nombre>Electrike</Nombre>
         <imagen foto="electrike"> </imagen>
-        <Descripcion>Electrike es un Pokémon eléctrico ágil y enérgico que puede generar descargas eléctricas desde su piel.</Descripcion>
+        <Descripcion>Electrike es un Pokémon eléctrico ágil que puede generar descargas eléctricas.</Descripcion>
         <Electrico>Eléctrico</Electrico>
         <Genero>Genero: Masculino</Genero>
         <Estado>
             <Habilidades>
                 Habilidades
-                <Habilidad>Thunder Fang</Habilidad>
-                <Habilidad>Quick Attack</Habilidad>
+                <Habilidad>Thunder</Habilidad>
+                <Habilidad>QuickAttack</Habilidad>
             </Habilidades>
             <Destreza>Destreza:</Destreza>................<Destreza>6</Destreza>
             <Nivel>Nivel:</Nivel>......................<Nivel>20</Nivel>
@@ -423,7 +421,7 @@
         <NumeroPokedex>102</NumeroPokedex>
         <Nombre>Exeggcute</Nombre>
         <imagen foto="exeggcute"> </imagen>
-        <Descripcion>Exeggcute es un grupo de huevos de planta que se comunican entre sí a través de ondas psíquicas.</Descripcion>
+        <Descripcion>Exeggcute es un grupo de huevos que se comunican entre sí a través de ondas.</Descripcion>
         <Planta>Planta</Planta>
         <Genero>Genero: Variado</Genero>
         <Estado>
@@ -442,7 +440,174 @@
         <PuntosVida>Puntos de vida: 60</PuntosVida>
     </PokemonPlanta>
 </Carta>
-
+<Carta>
+    <PokemonPsiquico>
+        <NumeroPokedex>196</NumeroPokedex>
+        <Nombre>Espeon</Nombre>
+        <imagen foto="espeon"> </imagen>
+        <Descripcion>Espeon es un Pokémon psíquico que posee una sensibilidad psíquica.</Descripcion>
+        <Psiquico>Psíquico</Psiquico>
+        <Genero>Genero: Variado</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Psybeam</Habilidad>
+                <Habilidad>Psychic</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>9</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>30</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>65</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 2
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 65</PuntosVida>
+    </PokemonPsiquico>
+</Carta>
+<Carta>
+    <PokemonPlanta>
+        <NumeroPokedex>182</NumeroPokedex>
+        <Nombre>Bellossom</Nombre>
+        <imagen foto="bellossom"> </imagen>
+        <Descripcion>Bellossom es un Pokémon de tipo planta conocido por su gracia y belleza natural.</Descripcion>
+        <Planta>Planta</Planta>
+        <Genero>Genero: Femenino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>PetalDance</Habilidad>
+                <Habilidad>SleepPowder</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>7</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>35</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>70</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 2
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 75</PuntosVida>
+    </PokemonPlanta>
+</Carta>
+<Carta>
+    <PokemonAgua>
+        <NumeroPokedex>007</NumeroPokedex>
+        <Nombre>Squirtle</Nombre>
+        <imagen foto="squirtle"> </imagen>
+        <Descripcion>Squirtle es un Pokémon conocido por su caparazón en forma de concha.</Descripcion>
+        <Agua>Agua</Agua>
+        <Genero>Genero: Masculino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Water Gun</Habilidad>
+                <Habilidad>Bubble</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>7</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>10</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>48</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 1
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 44</PuntosVida>
+    </PokemonAgua>
+</Carta>
+<Carta>
+    <PokemonVolador>
+        <NumeroPokedex>149</NumeroPokedex>
+        <Nombre>Dragonite</Nombre>
+        <imagen foto="dragonite"> </imagen>
+        <Descripcion>Dragonite es un Pokémon volador y dragón de gran tamaño y fuerza.</Descripcion>
+        <Volador>Volador</Volador>
+        <Genero>Genero: Masculino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Dragon Claw</Habilidad>
+                <Habilidad>Dragon Pulse</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>9</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>55</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>134</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 3
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 91</PuntosVida>
+    </PokemonVolador>
+</Carta>
+<Carta>
+    <PokemonElectrico>
+        <NumeroPokedex>026</NumeroPokedex>
+        <Nombre>Raichu</Nombre>
+        <imagen foto="raichu"> </imagen>
+        <Descripcion>Raichu es un Pokémon eléctrico ágil y poderoso.</Descripcion>
+        <Electrico>Eléctrico</Electrico>
+        <Genero>Genero: Masculino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Thunderbolt</Habilidad>
+                <Habilidad>Quick Attack</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>8</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>45</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>90</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 2
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 60</PuntosVida>
+    </PokemonElectrico>
+</Carta>
+<Carta>
+    <PokemonFuego>
+        <NumeroPokedex>077</NumeroPokedex>
+        <Nombre>Ponyta</Nombre>
+        <imagen foto="ponyta"> </imagen>
+        <Descripcion>Ponyta es un Pokémon de tipo fuego conocido por su melena ardiente.</Descripcion>
+        <Fuego>Fuego</Fuego>
+        <Genero>Genero: Femenino</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Ember</Habilidad>
+                <Habilidad>Quick Attack</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>7</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>28</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>65</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 1
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 50</PuntosVida>
+    </PokemonFuego>
+</Carta>
+<Carta>
+    <PokemonPsiquico>
+        <NumeroPokedex>097</NumeroPokedex>
+        <Nombre>Hypno</Nombre>
+        <imagen foto="hypno"> </imagen>
+        <Descripcion>Hypno es un Pokémon con habilidad para hipnotizar a otros.</Descripcion>
+        <Psiquico>Psíquico</Psiquico>
+        <Genero>Genero: Variado</Genero>
+        <Estado>
+            <Habilidades>
+                Habilidades
+                <Habilidad>Confusion</Habilidad>
+                <Habilidad>Psychic</Habilidad>
+            </Habilidades>
+            <Destreza>Destreza:</Destreza>................<Destreza>8</Destreza>
+            <Nivel>Nivel:</Nivel>......................<Nivel>32</Nivel>
+            <Fuerza>Fuerza:</Fuerza>...................<Fuerza>73</Fuerza>
+        </Estado>
+        <Evolucion>
+            Evolución: Fase 1
+        </Evolucion>
+        <PuntosVida>Puntos de vida: 85</PuntosVida>
+    </PokemonPsiquico>
+</Carta>
 
 
 
