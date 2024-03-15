@@ -1,0 +1,4 @@
+xquery version"1.0" encoding"UTF-8";
+for $x in /concesionario/coche
+where $x/precio>22000
+return $x/marca

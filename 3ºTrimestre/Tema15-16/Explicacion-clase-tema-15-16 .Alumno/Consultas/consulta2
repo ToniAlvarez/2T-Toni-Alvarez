@@ -1,0 +1,6 @@
+<vehiculo>
+{for $x in /concesionario/coche
+where $x/precio>2000
+order by $x/marca
+return ($x/marca/data(), $x/marca/@modelo/data())}
+</vehiculo>
