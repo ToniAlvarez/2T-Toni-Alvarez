@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="concesionario.xsd"?>
+<concesionario>
+  <coche matricula="6732KPC">
+    <marca modelo="Ateca">Seat</marca>
+    <combustible>Gasolina</combustible>
+    <color metalizado="N">Verde</color>
+    <precio>23000</precio>
+  </coche>
+  <coche matricula="8280KWT">
+    <marca modelo="Golf">Volkswagen</marca>
+    <combustible>Diesel</combustible>
+    <color metalizado="N">Azul</color>
+    <precio>25000</precio>
+  </coche>
+  <coche matricula="3245BWX">
+    <marca modelo="Megane">Renault</marca>
+    <combustible>Diesel</combustible>
+    <color metalizado="S">Verde</color>
+    <precio>21000</precio>
+  </coche>
+  <coche matricula="33895KWX">
+    <marca modelo="A4">Audi</marca>
+    <color metalizado="S">Azul</color>
+    <precio>11000</precio>
+  </coche>
+  <coche matricula="3345PWX">
+    <marca modelo="Fiesta">Ford</marca>
+    <color metalizado="S">Azul</color>
+    <precio>13000</precio>
+  </coche>
+  <coche matricula="3245DFX">
+    <marca modelo="2008">Peugeot</marca>
+    <combustible>Gasolina</combustible>
+    <color metalizado="S">Azul</color>
+    <precio>21000</precio>
+  </coche>
+  <coche matricula="3245BWX">
+    <marca modelo="A2">Mercedes</marca>
+    <combustible>Electrico</combustible>
+    <color metalizado="N">Blanco</color>
+    <precio>21000</precio>
+  </coche>
+  <coche matricula="1245BWX">
+    <marca modelo="ZX">Citroen</marca>
+    <combustible>Electrico</combustible>
+    <color metalizado="N">Negro</color>
+    <precio>15000</precio>
+  </coche>
+</concesionario>
