@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="pokedaw.css"?>
+<?xml-model href="pokedaw.xsd"?>
+<pokeDAW>
+    <pokemon tipo="planta">
+        <nombre numeroPokedex="60">Snivy</nombre>
+        <imagen src="snivy" />
+        <descripcion>Pokemon Snivy</descripcion>
+        <estado>
+            <habilidad destreza="50">Portazo</habilidad>
+            <nivel>5</nivel>
+            <fuerza>6</fuerza>
+            <faseEvolucion>Intermedia</faseEvolucion>
+            <puntosVida>30</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="fuego">
+        <nombre numeroPokedex="670">Eternatus</nombre>
+        <imagen src="eternatus" />
+        <descripcion>Pokemon Eternatus</descripcion>
+        <genero>Masculino</genero>
+        <estado>
+            <habilidad destreza="100">Portal</habilidad>
+            <nivel>10</nivel>
+            <fuerza>10</fuerza>
+            <faseEvolucion>Final</faseEvolucion>
+            <puntosVida>999</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="fuego">
+        <nombre numeroPokedex="160">Tepig</nombre>
+        <imagen src="tepig" />
+        <descripcion>Pokemon  Tepig</descripcion>
+        <genero></genero>
+        <estado>
+            <habilidad destreza="50">Ascuas</habilidad>
+            <nivel>8</nivel>
+            <fuerza>8</fuerza>
+            <faseEvolucion>Intermedia</faseEvolucion>
+            <puntosVida>98</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="agua">
+        <nombre numeroPokedex="61">Oshawot</nombre>
+        <imagen src="oshawot" />
+        <descripcion>Pokemon Oshawot</descripcion>
+        <genero>Masculino</genero>
+        <estado>
+            <habilidad destreza="30">Hidropulso</habilidad>
+            <nivel>2</nivel>
+            <fuerza>2</fuerza>
+            <faseEvolucion>Final</faseEvolucion>
+            <puntosVida>100</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="tierra">
+        <nombre numeroPokedex="62">Reshiram Negro</nombre>
+        <imagen src="reshiramNegro" />
+        <descripcion>Pokemon Reshiram Negro</descripcion>
+        <genero>Masculino</genero>
+        <estado>
+            <habilidad destreza="100">Enfado</habilidad>
+            <habilidad destreza="110">Llama Azul</habilidad>
+            <nivel>2</nivel>
+            <fuerza>6</fuerza>
+            <faseEvolucion>Inicial</faseEvolucion>
+            <puntosVida>10</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="tierra">
+        <nombre numeroPokedex="63">Zekrom</nombre>
+        <imagen src="zekrom" />
+        <descripcion>Pokemon Zekrom</descripcion>
+        <genero>Femenino</genero>
+        <estado>
+            <habilidad destreza="100">Enfado</habilidad>
+            <habilidad destreza="110">Ataque Fulgor</habilidad>
+            <nivel>17</nivel>
+            <fuerza>6</fuerza>
+            <faseEvolucion>Inicial</faseEvolucion>
+            <puntosVida>100</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="planta">
+        <nombre numeroPokedex="65">Axew</nombre>
+        <imagen src="axew" />
+        <descripcion>Pokemon Axew</descripcion>
+        <genero>Femenino</genero>
+        <estado>
+            <habilidad destreza="50">Furia Dragon</habilidad>
+            <nivel>3</nivel>
+            <fuerza>1</fuerza>
+            <faseEvolucion>Inicial</faseEvolucion>
+            <puntosVida>40</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="tierra">
+        <nombre numeroPokedex="66">Pansage</nombre>
+        <imagen src="pansage" />
+        <descripcion>Pokemon Pansage</descripcion>
+        <genero>Masculino</genero>
+        <estado>
+            <habilidad destreza="10">Recurrente</habilidad>
+            <nivel>4</nivel>
+            <fuerza>9</fuerza>
+            <faseEvolucion>Intermedia</faseEvolucion>
+            <puntosVida>100</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="fuego">
+        <nombre numeroPokedex="67">Pidove</nombre>
+        <imagen src="pidove" />
+        <descripcion>Pokemon Pidove</descripcion>
+        <genero>Femenino</genero>
+        <estado>
+            <habilidad destreza="20">Tornado</habilidad>
+            <nivel>5</nivel>
+            <fuerza>3</fuerza>
+            <faseEvolucion>Inicial</faseEvolucion>
+            <puntosVida>100</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="fuego">
+        <nombre numeroPokedex="68">Darumaka</nombre>
+        <imagen src="darumaka" />
+        <descripcion>Pokemon Darumaka</descripcion>
+        <genero>Femenino</genero>
+        <estado>
+            <habilidad destreza="20">Llama Abrasadora</habilidad>
+            <nivel>2</nivel>
+            <fuerza>6</fuerza>
+            <faseEvolucion>Inicial</faseEvolucion>
+            <puntosVida>30</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="tierra">
+        <nombre numeroPokedex="69">Zoroark</nombre>
+        <imagen src="zoroark" />
+        <descripcion>Pokemon Zoroark</descripcion>
+        <genero>Masculino</genero>
+        <estado>
+            <habilidad destreza="20">Castigo</habilidad>
+            <habilidad destreza="60">Alarido</habilidad>
+            <nivel>10</nivel>
+            <fuerza>10</fuerza>
+            <faseEvolucion>Final</faseEvolucion>
+            <puntosVida>100</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="agua">
+        <nombre numeroPokedex="70">Ducklet</nombre>
+        <imagen src="ducklet" />
+        <descripcion>Pokemon Ducklet</descripcion>
+        <genero>Femenino</genero>
+        <estado>
+            <habilidad destreza="10">Pistola Agua</habilidad>
+            <nivel>10</nivel>
+            <fuerza>1</fuerza>
+            <faseEvolucion>Inicial</faseEvolucion>
+            <puntosVida>100</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="fuego">
+        <nombre numeroPokedex="71">Emboar</nombre>
+        <imagen src="emboar" />
+        <descripcion>Pokemon Emboar</descripcion>
+        <genero>Masculino</genero>
+        <estado>
+            <habilidad destreza="80">Golpe Calor</habilidad>
+            <nivel>10</nivel>
+            <fuerza>7</fuerza>
+            <faseEvolucion>Final</faseEvolucion>
+            <puntosVida>800</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="agua">
+        <nombre numeroPokedex="72">Samurott</nombre>
+        <imagen src="samurott" />
+        <descripcion>Pokemon Samurott</descripcion>
+        <genero>Femenino</genero>
+        <estado>
+            <habilidad destreza="70">Hidrobomba</habilidad>
+            <nivel>8</nivel>
+            <fuerza>5</fuerza>
+            <faseEvolucion>Intermedia</faseEvolucion>
+            <puntosVida>600</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="fuego">
+        <nombre numeroPokedex="74">Scraggy</nombre>
+        <imagen src="scraggy" />
+        <descripcion>Pokemon Scraggy</descripcion>
+        <genero>Masculino</genero>
+        <estado>
+            <habilidad destreza="30">Patada Alta</habilidad>
+            <nivel>10</nivel>
+            <fuerza>2</fuerza>
+            <faseEvolucion>Inicial</faseEvolucion>
+            <puntosVida>300</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="tierra">
+        <nombre numeroPokedex="75">Riolu</nombre>
+        <imagen src="riolu" />
+        
+        <genero>Masculino</genero>
+        <estado>
+            <habilidad destreza="30">Garfio</habilidad>
+            <nivel>1</nivel>
+            <fuerza>4</fuerza>
+            <faseEvolucion>Intermedio</faseEvolucion>
+            <puntosVida>600</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="tierra">
+        <nombre numeroPokedex="76">Luxio</nombre>
+        <imagen src="luxio" />
+        <descripcion>Pokemon Luxio</descripcion>
+        <genero>Femenino</genero>
+        <estado>
+            <habilidad destreza="10">Destello Deslumbrante</habilidad>
+            <nivel>3</nivel>
+            <fuerza>6</fuerza>
+            <faseEvolucion>Inicial</faseEvolucion>
+            <puntosVida>200</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="fuego">
+        <nombre numeroPokedex="77">Volcarona</nombre>
+        <imagen src="volcarona" />
+        <descripcion>Pokemon Volcarona</descripcion>
+        <genero>Femenino</genero>
+        <estado>
+            <habilidad destreza="70">Viento Ardiente</habilidad>
+            <nivel>5</nivel>
+            <fuerza>9</fuerza>
+            <faseEvolucion>Final</faseEvolucion>
+            <puntosVida>800</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="planta">
+        <nombre numeroPokedex="78">Lilligant</nombre>
+        <imagen src="lilligant" />
+        <descripcion>Pokemon Lilligant</descripcion>
+        <genero>Femenino</genero>
+        <estado>
+            <habilidad destreza="30">Danza Onirica</habilidad>
+            <nivel>5</nivel>
+            <fuerza>4</fuerza>
+            <faseEvolucion>Intermedia</faseEvolucion>
+            <puntosVida>600</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="tierra">
+        <nombre numeroPokedex="79">Altaria</nombre>
+        <imagen src="altaria" />
+        <descripcion>Pokemon Altaria</descripcion>
+        <genero>Masculino</genero>
+        <estado>
+            <habilidad destreza="30">Planeo</habilidad>
+            <nivel>1</nivel>
+            <fuerza>6</fuerza>
+            <faseEvolucion>Final</faseEvolucion>
+            <puntosVida>900</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="tierra">
+        <nombre numeroPokedex="80">Lillipup</nombre>
+        <imagen src="lillipup" />
+        <descripcion>Pokemon Lillipup</descripcion>
+        <genero>Masculino</genero>
+        <estado>
+            <habilidad destreza="10">Derribar</habilidad>
+            <nivel>1</nivel>
+            <fuerza>1</fuerza>
+            <faseEvolucion>Inicial</faseEvolucion>
+            <puntosVida>10</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="agua">
+        <nombre numeroPokedex="81">Empoleon</nombre>
+        <imagen src="empoleon" />
+        <descripcion>Pokemon Empoleon</descripcion>
+        <genero>Masculino</genero>
+        <estado>
+            <habilidad destreza="30">Ataque Furia</habilidad>
+            <habilidad destreza="70">Apretón Frío</habilidad>
+            <nivel>8</nivel>
+            <fuerza>9</fuerza>
+            <faseEvolucion>Final</faseEvolucion>
+            <puntosVida>810</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="tierra">
+        <nombre numeroPokedex="82">Haxorus</nombre>
+        <imagen src="haxorus" />
+        <descripcion>Pokemon Haxorus</descripcion>
+        <genero>Masculino</genero>
+        <estado>
+            <habilidad >Presión Armadura</habilidad>
+            <habilidad destreza="90">Golpe Bis</habilidad>
+            <nivel>9</nivel>
+            <fuerza>10</fuerza>
+            <faseEvolucion>Final</faseEvolucion>
+            <puntosVida>950</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="fuego">
+        <nombre numeroPokedex="83">Kyurem</nombre>
+        <imagen src="kyurem" />
+        <descripcion>Pokemon Kyurem</descripcion>
+        <genero>Femenino</genero>
+        <estado>
+            <habilidad destreza="20">Garra Dual</habilidad>
+            <habilidad destreza="100">Destello Helado</habilidad>
+            <nivel>2</nivel>
+            <fuerza>9</fuerza>
+            <faseEvolucion>Final</faseEvolucion>
+            <puntosVida>860</puntosVida>
+        </estado>
+    </pokemon>
+    <pokemon tipo="agua">
+        <nombre numeroPokedex="85">Elgyem</nombre>
+        <imagen src="elgyem" />
+        <descripcion>Pokemon Elgyem</descripcion>
+        <genero>Masculino</genero>
+        <estado>
+            <habilidad destreza="10">Golpe Rápido</habilidad>
+            <nivel>2</nivel>
+            <fuerza>4</fuerza>
+            <faseEvolucion>Final</faseEvolucion>
+            <puntosVida>115</puntosVida>
+        </estado>
+    </pokemon>
+</pokeDAW>

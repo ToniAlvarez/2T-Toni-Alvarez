@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="pokeDAW">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pokemon" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="numeroPokedex" type="xs:integer" use="required" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="imagen">
+                                <xs:complexType>
+                                    <xs:attribute name="src" type="xs:ID" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="descripcion" type="xs:string" />
+                            <xs:element name="genero" type="xs:string" />
+                            <xs:element name="estado">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="habilidad" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="destreza" type="xs:integer" use="required" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="nivel">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:integer">
+                                                    <xs:minInclusive value="1"/>
+                                                    <xs:maxInclusive value="10"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="fuerza" type="xs:string" />
+                                        <xs:element name="faseEvolucion" type="xs:string" />
+                                        <xs:element name="puntosVida">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:integer">
+                                                    <xs:minInclusive value="10"/>
+                                                    <xs:maxInclusive value="1000"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="tipo" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="agua" />
+                                    <xs:enumeration value="fuego" />
+                                    <xs:enumeration value="planta" />
+                                    <xs:enumeration value="tierra" />
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
