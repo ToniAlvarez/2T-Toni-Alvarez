@@ -1,0 +1,29 @@
+PRIMERA CONSULTA 
+<concesionario_unico>{
+  for $x in //coche
+  return(
+    <coche matricula="{$x/matricula}">
+    <marca>{$x/marca/text()}</marca>
+    <modelo>{$x/marca/@modelo/data()}</modelo>
+    <precio_iva tipo="21%">{$x/precio*1.21}</precio_iva>
+    {$x/combustible}
+   </coche>
+  )
+}
+</concesionario_unico>
+
+
+SEGUNDA CONSULTA
+
+<concesionario_unico>{
+  for $x in //coche
+  return
+  <coche>
+    {attribute matricula {$x/@matricula}},
+    <marca>{data($x/marca)}</marca>,
+    <modelo>{data($x/marca/@modelo)}</modelo>,
+    <precio_iva tipo="21%"/>,
+    {$x/combustible}
+  </coche>
+}</concesionario_unico>
+
